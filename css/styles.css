@@ -30,6 +30,7 @@ main {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding-bottom: 60px;
 }
 
 section {
@@ -77,15 +78,15 @@ section article div {
 
 .ejercicio p {
   font-size: 1.5rem;
-
   padding: 5px 10px 5px 10px;
-
   padding-right: 0px;
   margin-top: 5px;
 }
 
 .ejercicio p span {
   padding: 5px;
+  font-style: italic;
+  font-weight: 100;
 }
 
 section article div p {
@@ -100,4 +101,33 @@ section article div p {
   border: 1px solid white;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   padding-bottom: 5px;
+}
+
+footer {
+  position: relative;
+}
+
+footer a {
+  text-decoration-line: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  color: black;
+  background-color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: none;
+}
+.wsp {
+  width: 65px;
+  height: 65px;
+  padding: 0px;
+  padding-left: 5px;
+  margin: 0px;
+  border: none;
 }
