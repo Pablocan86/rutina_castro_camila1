@@ -64,7 +64,6 @@ section {
 section article {
   width: 100%;
   border-radius: 10px;
-  background-color: rgb(88, 11, 26);
 }
 section article div {
   display: flex;
@@ -104,9 +103,10 @@ section article div p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: 1px solid white;
+  background-color: rgb(88, 11, 26);
+  border-radius: 5px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  padding-bottom: 5px;
+  margin-bottom: 5px;
 }
 
 footer {
