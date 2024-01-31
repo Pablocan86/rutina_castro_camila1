@@ -74,6 +74,15 @@ section article div {
   margin: 1px;
 }
 
+section article h3 {
+  background-color: white;
+  font-size: 1.8rem;
+  color: black;
+  margin: 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
 .ejercicio {
   width: 90%;
   display: flex;
